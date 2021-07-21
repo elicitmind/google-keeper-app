@@ -17,11 +17,16 @@ function App() {
 
   function handleDelete(id) {
     console.log(id);
-    setAllNotes(
-      allNotes.filter((e, index) => {
-        return id !== index;
-      })
-    );
+   setAllNotes(prevNotes=> {
+     return prevNotes.filter((e, index)=>{
+       return index !== id
+     })
+    })
+    // setAllNotes(
+    //   allNotes.filter((e, index) => {
+    //     return id !== index;
+    //   })
+    // );
   }
   return (
     <div>

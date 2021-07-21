@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <h1>KEEP THE FIRE BURNING! GOOGLE KEEP APP</h1>
+      <h1>MIND OVER BODY, BODY OVER MIND</h1>
     </header>
   );
 }
